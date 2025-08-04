@@ -1,12 +1,3 @@
-
-<!-- Certified Education -->
-
-BCIT: jmarkiewicz@my.bcit.ca
-BCIT ID: A00616881
-
-my.bcit.ca
-educationplannerbc.ca
-
 <!-- Website Features -->
 
 * Design: Global Styles
