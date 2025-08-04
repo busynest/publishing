@@ -1,0 +1,31 @@
+{
+    "scripts": {
+        "mini": "html-minifier --input-dir index.html --output-dir public/mini.html --remove-comments --remove-tag-whitespace",
+        "server": "web-dev-server --node-resolve --watch --open",
+        "check": "npm-check -u",
+        "audit": "npm audit fix",
+        "list": "npm ls",
+        "global": "npm ls -g",
+        "version": "npm -v node -v",
+        "init": "git init",
+        "clone": "git clone ssh://git@github.com/[username]/[repository-name].git",
+        "add": "git add -A",
+        "commit": "git commit -m '[commit message]'",
+        "branch": "git branch -a",
+        "push": "git push origin master",
+        "pull": "git pull"
+    },
+    "name": "jackspublishing",
+    "version": "1.0.0",
+    "description": "Personal website",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "Personal"
+    },
+    "keywords": [
+        "website"
+    ],
+    "author": "Jacek Markiewicz",
+    "license": "ISC"
+}

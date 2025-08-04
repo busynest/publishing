@@ -1,0 +1,14 @@
+
+section {
+  background: repeating-linear-gradient(-45deg, #f00 0, #f00 10px, #fff 10px, #fff 20px, #00f 20px, #00f 30px, #fff 30px, #fff 40px);
+  animation: anime 10s linear infinite;
+}
+
+@keyframes anime {
+  0% {
+      background-position: 0;
+  }
+  100% {
+      background-position: 489px;
+  }
+}

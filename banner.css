@@ -1,0 +1,60 @@
+/* Scroll Animation */
+
+.scroll-left {
+  height:           50px;	
+  overflow:         hidden;
+  position:         relative;
+  margin-top:       16px;
+  margin-left:      16px;
+  margin-right:     16px;
+ }
+
+.scroll-left p {
+  white-space:      nowrap;
+  /*
+    position:         absolute;
+    width:            fit-content;
+  */
+
+  /* Box Behaviour */
+  margin:           auto;
+
+  text-align:       left;
+
+  height:           100%;
+  line-height:      50px;
+
+  /* Starting position */
+  transform:        translateX(100%);
+
+  /*
+  
+  duration |
+  easing-function |
+  delay |
+  iteration-count |
+  direction |
+  fill-mode |
+  play-state |
+  name
+
+  animation:         scroll-left 10s linear infinite;
+
+  */
+
+  animation-name:             scroll-left;
+  animation-duration:         10s;
+  animation-timing-function:  ease-in-out;
+  animation-iteration-count:  infinite;
+
+}
+
+/* Move it (define the animation) */
+@keyframes scroll-left {
+  0%   {
+    transform: translateX(100%); 		
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+}
